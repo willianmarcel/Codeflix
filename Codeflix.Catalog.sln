@@ -27,13 +27,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messaging", "Messaging", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Storage", "Storage", "{DDBDF7D7-9C10-4990-985D-C4723BCF1838}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codeflix.Catalog.Infra.Messaging", "src\Codeflix.Catalog.Infra.Messaging\Codeflix.Catalog.Infra.Messaging.csproj", "{D1939A00-5496-44CC-AD05-5CD772678D62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codeflix.Catalog.Infra.Messaging", "src\Codeflix.Catalog.Infra.Messaging\Codeflix.Catalog.Infra.Messaging.csproj", "{D1939A00-5496-44CC-AD05-5CD772678D62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codeflix.Catalog.Infra.Storage", "src\Codeflix.Catalog.Infra.Storage\Codeflix.Catalog.Infra.Storage.csproj", "{35866F13-175F-409B-8E90-33E47AEC6A04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codeflix.Catalog.Infra.Storage", "src\Codeflix.Catalog.Infra.Storage\Codeflix.Catalog.Infra.Storage.csproj", "{35866F13-175F-409B-8E90-33E47AEC6A04}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{DC9104A1-3F97-4D50-A3FB-3B3E34395A78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codeflix.Catalog.Api", "src\Codeflix.Catalog.Api\Codeflix.Catalog.Api.csproj", "{2236A025-4BD0-459E-9396-D92FAD4F178F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codeflix.Catalog.Api", "src\Codeflix.Catalog.Api\Codeflix.Catalog.Api.csproj", "{2236A025-4BD0-459E-9396-D92FAD4F178F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "env", "env", "{71F56CCD-C343-4585-851B-E683F48B4342}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
