@@ -1,9 +1,8 @@
 ﻿using Codeflix.Catalog.Domain.Exceptions;
-using Codeflix.Catalog.UnitTests.Domain.Entity.CastMember;
 using FluentAssertions;
 using DomainEntity = Codeflix.Catalog.Domain.Entity;
 
-namespace FC.Codeflix.Catalog.UnitTests.Domain.Entity.CastMember;
+namespace Codeflix.Catalog.UnitTests.Domain.Entity.CastMember;
 
 [Collection(nameof(CastMemberTestFixture))]
 public class CastMemberTest

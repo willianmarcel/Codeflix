@@ -25,8 +25,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Codeflix.Catalog.Application\Codeflix.Catalog.Application.csproj" />
+    <ProjectReference Include="..\..\src\Codeflix.Catalog.Application\Codeflix.Catalog.Application.csproj" />
     <ProjectReference Include="..\..\src\Codeflix.Catalog.Domain\Codeflix.Catalog.Domain.csproj" />
+    <ProjectReference Include="..\..\src\Codeflix.Catalog.Infra.Storage\Codeflix.Catalog.Infra.Storage.csproj" />
   </ItemGroup>
 
 </Project>

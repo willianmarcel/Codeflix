@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\Codeflix.Catalog.Domain\Codeflix.Catalog.Domain.csproj" />
+    <ProjectReference Include="..\Codeflix.Catalog.Domain\Codeflix.Catalog.Domain.csproj" />
   </ItemGroup>
 
 </Project>
